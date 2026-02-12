@@ -1,4 +1,4 @@
-/* DashboardAdmin.css - Minimal Admin UI */
+/* DashboardClient.css - Minimal CRUD UI */
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,6 @@
 :root {
   --primary: #0066b3;
   --secondary: #00a8ff;
-  --danger: #dc3545;
   --bg-light: #f5f7fa;
   --text-dark: #333;
   --border: #ddd;
@@ -52,15 +51,6 @@
   background: var(--secondary);
 }
 
-.btn-danger {
-  background: var(--danger);
-  color: white;
-}
-
-.btn-danger:hover {
-  background: #b71c1c;
-}
-
 .table {
   width: 100%;
   border-collapse: collapse;
@@ -84,14 +74,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
 }
 
 .modal {
   background: white;
   border-radius: var(--radius);
   padding: 20px;
-  width: 450px;
+  width: 400px;
   max-width: 90%;
 }
 
