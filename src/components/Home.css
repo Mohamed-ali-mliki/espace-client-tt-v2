@@ -1,23 +1,14 @@
-:root {
-  --primary: #0066b3;
-  --secondary: #00a8ff;
-  --text-light: #666;
-  --text-dark: #333;
-  --bg-light: #f8f9fa;
-  --radius: 12px;
-  --transition: 0.3s ease;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+.home-light {
+  width: 100%;
+  min-height: 100vh;
+  background: #f8f9fa;
 }
 
 /* Hero */
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  background: linear-gradient(135deg, #0066b3, #00a8ff);
   color: white;
 }
 
@@ -37,15 +28,16 @@ body {
   border-radius: 30px;
   font-weight: 600;
   text-decoration: none;
-  transition: var(--transition);
 }
 
 .btn-primary {
-  background: var(--secondary);
+  background: #00a8ff;
   color: white;
 }
 
-.btn-primary:hover { opacity: 0.9; }
+.btn-primary:hover {
+  opacity: 0.9;
+}
 
 .btn-outline {
   background: transparent;
@@ -61,10 +53,8 @@ body {
 .services {
   padding: 60px 20px;
   text-align: center;
-  background: var(--bg-light);
+  background: #f8f9fa;
 }
-
-.services h2 { margin-bottom: 40px; }
 
 .services-grid {
   display: flex;
@@ -76,24 +66,40 @@ body {
 .service-card {
   background: white;
   padding: 30px 20px;
-  border-radius: var(--radius);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border-radius: 12px;
   width: 250px;
-  transition: var(--transition);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
 }
 
-.service-card:hover { transform: translateY(-5px); }
+.service-card:hover {
+  transform: translateY(-5px);
+}
 
-.service-icon { font-size: 2.5rem; margin-bottom: 15px; }
+.service-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
 
-.service-link { color: var(--primary); font-weight: 600; text-decoration: none; }
+.service-link {
+  color: #0066b3;
+  font-weight: 600;
+  text-decoration: none;
+}
 
 /* CTA */
 .cta {
   text-align: center;
   padding: 60px 20px;
-  background: var(--primary);
+  background: #0066b3;
   color: white;
 }
 
-.cta .btn-large { padding: 15px 35px; font-size: 1.1rem; }
+.cta h2 {
+  margin-bottom: 30px;
+}
+
+.btn-large {
+  padding: 15px 35px;
+  font-size: 1.1rem;
+}

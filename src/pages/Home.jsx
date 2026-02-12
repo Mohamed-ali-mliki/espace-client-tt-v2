@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../components/Home.css";
-import Footer from "../components/Footer";
 
 const Home = () => {
   const services = [
@@ -42,9 +41,6 @@ const Home = () => {
         <h2>Prêt à gérer vos services efficacement ?</h2>
         <Link to="/inscription" className="btn-primary btn-large">Créer un compte gratuit</Link>
       </section>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 };

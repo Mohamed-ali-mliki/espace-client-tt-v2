@@ -3,9 +3,9 @@ import "../components/Subscriptions.css";
 
 const products = [
   { id: 1, name: "Internet 4GB", price: "dt10", img: "https://img.icons8.com/ios/100/000000/wifi.png" },
-  { id: 2, name: "Internet 25GB", price: "dt 30", img: "https://img.icons8.com/ios/100/000000/wifi.png" },
-  { id: 3, name: "Mobile Basic", price: "dt 5", img: "https://img.icons8.com/ios/100/000000/smartphone.png" },
-  { id: 4, name: "Mobile Premium", price: "dt 12", img: "https://img.icons8.com/ios/100/000000/smartphone.png" },
+  { id: 2, name: "Internet 25GB", price: "dt30", img: "https://img.icons8.com/ios/100/000000/wifi.png" },
+  { id: 3, name: "Mobile Basic", price: "dt5", img: "https://img.icons8.com/ios/100/000000/smartphone.png" },
+  { id: 4, name: "Mobile Premium", price: "dt12", img: "https://img.icons8.com/ios/100/000000/smartphone.png" },
 ];
 
 const Subscription = () => {

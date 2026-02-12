@@ -1,12 +1,11 @@
-/* src/components/Navbar.css */
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 2rem;
-  background-color: #0052a5; /* couleur bleu foncé */
+  background-color: #0052a5;
   color: white;
+  width: 100%;
 }
 
 .navbar-left {
@@ -38,7 +37,7 @@
 }
 
 .nav-link:hover {
-  color: #ffcc00; /* couleur au survol */
+  color: #ffcc00;
 }
 
 .nav-link.active {

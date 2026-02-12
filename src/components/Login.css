@@ -1,58 +1,46 @@
-/* src/components/Login.css */
-
-.login-container {
+.auth-container {
   max-width: 400px;
   margin: 60px auto;
-  padding: 30px 25px;
-  background-color: #1a2b3c;
-  color: #ecf0f1;
+  padding: 30px;
+  background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   font-family: 'Segoe UI', sans-serif;
+  text-align: center;
 }
 
-.login-title {
-  text-align: center;
-  color: #3498db;
-  margin-bottom: 25px;
+.auth-title {
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 25px;
+  color: #0066b3;
 }
 
-.login-form label {
-  display: block;
-  margin-bottom: 5px;
-  font-size: 14px;
-}
-
-.login-form input {
+.auth-form input {
   width: 100%;
   padding: 10px 12px;
-  margin-bottom: 20px;
-  border: none;
+  margin: 6px 0;
+  border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 14px;
   outline: none;
 }
 
-.login-form input:focus {
+.auth-form input:focus {
   border: 2px solid #3498db;
 }
 
-.login-btn {
+.auth-form button {
   width: 100%;
   padding: 12px;
-  background-color: #3498db;
+  margin-top: 15px;
+  background-color: #0066b3;
+  color: white;
   border: none;
   border-radius: 6px;
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 16px;
 }
 
-.login-btn:hover {
-  background-color: #2980b9;
-  transform: translateY(-2px);
+.auth-form button:hover {
+  background-color: #004a8f;
 }

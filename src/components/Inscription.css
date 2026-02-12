@@ -1,69 +1,42 @@
-.inscription-page-simple {
+.inscription-container-simple {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #e6f0fa;
   padding: 20px;
-}
-
-.inscription-container-simple {
-  background: #ffffff;
-  padding: 30px;
-  border-radius: 10px;
-  width: 100%;
   max-width: 400px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  text-align: center;
+  margin: auto;
 }
 
-.inscription-container-simple h1 {
-  color: #0066b3;
-  margin-bottom: 20px;
-}
-
-.inscription-container-simple input[type="text"],
-.inscription-container-simple input[type="email"],
-.inscription-container-simple input[type="tel"],
-.inscription-container-simple input[type="password"] {
+.inscription-container-simple input,
+.inscription-container-simple button {
   width: 100%;
   padding: 10px;
   margin: 6px 0;
-  border: 1px solid #ccc;
   border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
-.inscription-container-simple label {
+.checkbox-right {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   gap: 8px;
-  font-size: 14px;
   margin: 10px 0;
 }
 
-.inscription-container-simple button {
-  width: 100%;
-  padding: 12px;
-  margin-top: 15px;
+button {
   background-color: #0066b3;
   color: white;
   border: none;
-  border-radius: 6px;
   cursor: pointer;
-  font-size: 16px;
-}
-
-.inscription-container-simple button:hover {
-  background-color: #004a8f;
-}
-
-.inscription-container-simple small {
-  color: red;
-  display: block;
-  margin-top: 2px;
-}
-
-.inscription-container-simple .success {
-  color: green;
+  padding: 12px;
   margin-top: 10px;
 }
+
+button:hover { background-color: #004a8f; }
+
+small { color: red; display: block; margin-top: 2px; }
+.success { color: green; margin-top: 10px; }

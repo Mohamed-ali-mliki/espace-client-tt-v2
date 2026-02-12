@@ -1,4 +1,3 @@
-// src/pages/Login.jsx
 import React, { useState } from "react";
 import "../components/Login.css";
 
@@ -14,14 +13,13 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // هنا يمكنك إضافة منطق تسجيل الدخول مع backend
     console.log("Login data:", formData);
   };
 
   return (
-    <div className="login-container">
-      <h2 className="login-title">Connexion</h2>
-      <form className="login-form" onSubmit={handleSubmit}>
+    <div className="auth-container">
+      <h2 className="auth-title">Connexion</h2>
+      <form className="auth-form" onSubmit={handleSubmit}>
         <label>Email</label>
         <input
           type="email"
@@ -42,7 +40,7 @@ const Login = () => {
           required
         />
 
-        <button type="submit" className="login-btn">Se connecter</button>
+        <button type="submit">Se connecter</button>
       </form>
     </div>
   );
