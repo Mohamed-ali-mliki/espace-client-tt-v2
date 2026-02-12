@@ -1,0 +1,141 @@
+/* ========================= */
+/* Container */
+/* ========================= */
+
+.dashboard-container {
+  padding: 40px;
+  min-height: 80vh;
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+/* ========================= */
+/* Title */
+/* ========================= */
+
+.dashboard-title {
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* ========================= */
+/* Form */
+/* ========================= */
+
+.dashboard-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.dashboard-form input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.dashboard-form input:focus {
+  border-color: #007bff;
+}
+
+/* ========================= */
+/* Buttons */
+/* ========================= */
+
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  color: black;
+  margin-right: 5px;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+/* ========================= */
+/* Table */
+/* ========================= */
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dashboard-table th {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.dashboard-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dashboard-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* ========================= */
+/* Client Box */
+/* ========================= */
+
+.client-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  max-width: 400px;
+}
+
+/* ========================= */
+/* Responsive */
+/* ========================= */
+
+@media (max-width: 768px) {
+  .dashboard-form {
+    flex-direction: column;
+  }
+
+  .dashboard-table {
+    font-size: 14px;
+  }
+
+  .dashboard-title {
+    font-size: 22px;
+  }
+}

@@ -1,32 +1,31 @@
-// src/App.jsx
+
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer"; // Import du Footer
+import Footer from "./components/Footer";
+
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Inscription from "./pages/Inscription";
-import DashboardClient from "./pages/DashboardClient";
-import DashboardAdmin from "./pages/DashboardAdmin";
+import Dashboard from "./pages/Dashboard";
 import Subscriptions from "./pages/Subscriptions";
 
 function App() {
   return (
     <Router>
-      {/* Navbar en haut de toutes les pages */}
+      {/* Navbar */}
       <Navbar />
 
-      {/* Contenu des pages */}
+      {/* Pages */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/inscription" element={<Inscription />} />
-        <Route path="/dashboard-client" element={<DashboardClient />} />
-        <Route path="/dashboard-admin" element={<DashboardAdmin />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/subscriptions" element={<Subscriptions />} />
       </Routes>
 
-      {/* Footer en bas de toutes les pages */}
+      {/* Footer */}
       <Footer />
     </Router>
   );
