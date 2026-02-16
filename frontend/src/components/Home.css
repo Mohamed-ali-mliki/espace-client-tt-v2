@@ -1,0 +1,105 @@
+.home-light {
+  width: 100%;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0066b3, #00a8ff);
+  color: white;
+}
+
+.hero h1 span {
+  color: #ffd700;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin: 15px 0 30px;
+}
+
+.hero-buttons .btn-primary,
+.hero-buttons .btn-outline {
+  padding: 12px 25px;
+  margin: 5px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #00a8ff;
+  color: white;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-outline:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Services */
+.services {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+.services-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.service-link {
+  color: #0066b3;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 60px 20px;
+  background: #0066b3;
+  color: white;
+}
+
+.cta h2 {
+  margin-bottom: 30px;
+}
+
+.btn-large {
+  padding: 15px 35px;
+  font-size: 1.1rem;
+}
